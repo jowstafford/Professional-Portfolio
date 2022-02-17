@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: auto;
+    color: #0c234b
+}
+.content {
+    max-width:75%;
+    float:right;
+}
+.nav {
+    border: 5px solid #0c234b;
+    display:flex;
+    flex-wrap: wrap;
+    position:fixed;
+    width:25%;
+    height:100%;
+    background-color: #1e5288;
+    font-size: 30px;
+    text-align: center;
+}
+body header nav ul li {
+    margin: 20px 0px;
+    list-style-type: none;
+}
+#nav-img {
+    width: 120px;
+    max-height: 120px;
+    border: 5px solid #0c234b;
+    border-radius: 50%;
+}
+#nav-about-me {
+    text-decoration: none;
+}
+#nav-about-me :hover {
+    background-color: #378dbd;
+    text-decoration: none;
+    border-radius: 8px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #378dbd;
+  }
+  50% {
+    background-color: #9eabae;
+  }
+  100% {
+    background-color: #378dbd;
+  }
+}
+#nav-my-work {
+    text-decoration: none;
+}
+#nav-my-work :hover {
+    background-color: #378dbd;
+    text-decoration: none;
+    border-radius: 8px;
+    animation: pulse 1s infinite;
+}
+#nav-contact {
+    text-decoration: none;
+}
+#nav-contact :hover {
+    background-color: #378dbd;
+    text-decoration: none;
+    border-radius: 8px;
+    animation: pulse 1s infinite;
+}
+.hero {
+    border: 2px solid #0c234b;
+    background-image: url(dubai_beautiful_city-wallpaper-2560x1080.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.Jordan-W-Stafford {
+    border: 2px solid #9eabae;
+    border-radius: 8px;
+    margin: 20px;
+    width: 50%;
+    background-color: rgb(226, 233, 235, 0.4);
+}
+.Jordan-W-Stafford h2 {
+    margin: 10px;
+    text-align: center;
+}
+.hero-content {
+    border: 2px solid #9eabae;
+    border-radius: 8px;
+    margin: 20px;
+    width: 50%;
+    background-color: rgb(226, 233, 235, 0.4);
+    text-align: justify;
+    font-size: 20px;
+}
+.hero-content p {
+    margin: 10px;
+}
+#about_me {
+    border: 2px solid #0c234b;
+    background-color: #9eabae;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+body section section div {
+    margin: 0px;
+}
+.About-me {
+    margin:20px 20px 0px 20px;
+    border-bottom: solid 2px #0c234b;
+    height: fit-content;
+    width: 95%;
+}
+.about_me-img {
+    border: 4px solid #0c234b;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 8px;
+    margin:20px  0px 20px 20px;
+}
+.about_me-content {
+    border: 2px solid #0c234b;
+    border-radius: 8px;
+    margin: 20px;
+    width: 75%;
+    text-align: justify;
+}
+.about_me-content p {
+    margin: 10px;
+}
+#my_work {
+    border: 2px solid #0c234b;
+    background-color: #9eabae;
+}
+.My-Work {
+    border-bottom: solid 2px #0c234b;
+    margin: 20px;
+    width: 95%;
+    text-align: center;
+}
+.my_work-content {
+    border: 2px solid #0c234b;
+    border-radius: 8px;;
+    margin: 20px;
+}
+.my-work-justify {
+    text-align: justify;
+    margin: 5px 10px;
+    width: 95%;
+}
+.my-work-strong {
+    text-align: center;
+    margin: 5px 10px;
+    width: 95%;
+}
+.works {
+    margin: 20px 0px 20px 20px;
+    padding: 4px;
+    width: fit-content;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+#ChessMaster {
+    width: 95%;
+    height: auto;
+    border: 4px solid #0c234b;
+    border-radius: 8px;
+}
+#ChessMasterHover :hover {
+    border: 4px solid #1e5288;
+}
+#PasswordGenerator {
+    width: 95%;
+    height: auto;
+    border: 4px solid #0c234b;
+    border-radius: 8px;
+}
+#PasswordGeneratorHover :hover {
+    border: 4px solid #1e5288;
+}
+#RunBuddy {
+    width: 95%;
+    height: auto;
+    border: 4px solid #0c234b;
+    border-radius: 8px;
+}
+#RunBuddyHover :hover {
+    border: 4px solid #1e5288;
+}
+#contact {
+    border: 2px solid #0c234b;
+    background-color: #9eabae;
+    text-align: center;
+}
+.Contact {
+    border-bottom: solid 2px #0c234b;
+    margin: 20px;
+    width: 95%;
+}
+#Facebook {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+#Instagram {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+#Twitter {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+#Linkedin {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+#Gmail {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
